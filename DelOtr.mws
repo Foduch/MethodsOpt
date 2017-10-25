@@ -1,0 +1,41 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 99 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "f:= x-> x^3-6*x^2+x-10;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"fG:6#%\"xG6\"6$%)operatorG%&arrowGF(,**$
+9$\"\"$\"\"\"*$F.\"\"#!\"'F.F0!#5F0F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "plot(f, x = 2..6);" }}{PARA 13 "" 1 "" {INLPLOT "6%-%
+'CURVESG6$7S7$$\"\"#\"\"!$\"1%Q'[.!)*=2\"!$@$7$$\"1mmm;')=(3#!#:F+7$$
+\"1LL$e'40j@F1F+7$$\"1nmm6hO[AF1F+7$$\"1nmm\"yYUL#F1F+7$$\"1LL$eF>(>CF
+1F+7$$\"1nm;>K'*)\\#F1F+7$$\"1++]Kd,\"e#F1F+7$$\"1mm;fX(em#F1F+7$$\"1+
++]U7Y]FF1F+7$$\"1LLLV!pu$GF1F+7$$\"1nmmhb59HF1F+7$$\"1+++I,Q+IF1F+7$$
+\"1+++]*3q3$F1F+7$$\"1+++q=\\qJF1F+7$$\"1nm;fBIYKF1F+7$$\"1LLLj$[kL$F1
+F+7$$\"1LLL`Q\"GT$F1F+7$$\"1++]s]k,NF1F+7$$\"1LLL`dF!e$F1F+7$$\"1++]sg
+amOF1F+7$$\"1++]<ep[PF1F+7$$\"1LLLe/TMQF1F+7$$\"1LL$eDBJ\"RF1F+7$$\"1n
+mmTc-)*RF1F+7$$\"1mm;f`@'3%F1F+7$$\"1****\\nZ)H;%F1F+7$$\"1mmmJy*eC%F1
+F+7$$\"1+++S^bJVF1F+7$$\"1+++0TN:WF1F+7$$\"1++]7RV'\\%F1F+7$$\"1+++:#f
+ke%F1F+7$$\"1LLL`4NnYF1F+7$$\"1******\\,s`ZF1F+7$$\"1mm;zM)>$[F1F+7$$
+\"1+++qfa<\\F1F+7$$\"1KL$eg`!)*\\F1F+7$$\"1++]#G2A3&F1F+7$$\"1LLL$)G[k
+^F1F+7$$\"1++]7yh]_F1F+7$$\"1mmm')fdL`F1F+7$$\"1mmm,FT=aF1F+7$$\"1LL$e
+#pa-bF1F+7$$\"1+++Sv&)zbF1F+7$$\"1LLLGUYocF1F+7$$\"1mmm1^rZdF1F+7$$\"1
+++]sI@KeF1F+7$$\"1++]2%)38fF1F+7$$\"\"'F*F+-%'COLOURG6&%$RGBG$\"#5!\"
+\"F*F*-%+AXESLABELSG6$%\"xG%!G-%%VIEWG6$;F(Fgt%(DEFAULTG" 2 462 462 
+462 2 0 1 0 2 9 0 4 2 1.000000 45.000000 45.000000 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 0 0 0 16 0 0 0 0 0 0 1 }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 53 "eps:= 0.00001:\ndelta:= 0.0001:\na:= 2:\nb:= 6:\nk:
+= 0.1:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 231 "R:
+= abs(f(b)-f(a)):\nwhile R > eps  do\n c:= (a+b)/2:\nd1:= k*(b-a)/2:\n
+x1:= c-d1:\nx2:= c+d1:\nif (f(x1)<f(x2)) then\n  b:= x2:\nelse\n  if (
+f(x1)>f(x2)) then\n    a:= x1:\n  else\n    a:= x1:\n    b:= x2:\nfi:
+\nfi:\nR:= abs(f(b)-f(a)):\nod:\na;\nb;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"+7;r8R!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+#H(R:R!\"*
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "6 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 }
